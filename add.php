@@ -40,6 +40,7 @@ foreach(new RecursiveIteratorIterator (new RecursiveDirectoryIterator ('./crawle
 		$handle = fopen($filename, 'r');
 		$contents = fread($handle, filesize($filename));
 		fclose($handle);
+
 		$unserialized = unserialize($contents);
 		
 		$url = $unserialized[0];

@@ -46,6 +46,9 @@
 	</main>
 
 	<footer>
+		<div class="footer-copyright text-center py-3">
+			The Coding Cult
+		</div>
 	</footer>
 </body>
 </html>

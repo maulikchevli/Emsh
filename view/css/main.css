@@ -10,7 +10,7 @@ body {
 
 main {
 	flex: 1 0 auto;
-	height: 80%;
+	height: 95%;
 	
 	width: 50%;
 	margin-left: auto;
@@ -26,5 +26,5 @@ footer {
 }
 
 .centerDiv {
-	padding-top: 20%;
+	padding-top: 30%;
 }

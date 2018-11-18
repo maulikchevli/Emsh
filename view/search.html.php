@@ -1,3 +1,21 @@
+<?php
+
+require_once '../classes/helperFn.php';
+
+$query = $_GET['q'];
+if ( $query[0] == '!') {
+	$query = explode( ' ', $query);
+
+	$siteMnemonic = substr( $query[0], 1);
+	$searchQ = $query[1];
+
+	$siteURL = MnemonicToUrl( $siteMnemonic, $searchQ);
+
+	header( 'Location:' . $siteURL);
+}
+
+?>
+
 <!DOCTYPE html>
 <html land="en">
 <head>

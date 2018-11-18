@@ -1,0 +1,3 @@
+7 https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201809210816
+
+8 https://www.apple.com/ac/structured-data/images/knowledge_graph_logo.png?201606271147

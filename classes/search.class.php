@@ -1,7 +1,6 @@
 <?php
 include_once(dirname(__FILE__).'/../interfaces/isearch.php');
 include_once(dirname(__FILE__).'/../interfaces/iranker.php');
-include_once(dirname(__FILE__).'/../classes/singlefolderindex.class.php');
 include_once(dirname(__FILE__).'/../classes/porterstemmer.class.php');
 
 define('SEARCH_DOCUMENTRETURN', 10);

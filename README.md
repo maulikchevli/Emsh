@@ -1,10 +1,10 @@
 # Emsh
-- A primitive search engine to search the mesh ( internet)
+A primitive search engine to search the mesh (internet).
 
 ## Bangs
-![Bangs](/img/ssBangs.jpeg)
+![Bangs](./img/ssBangs.jpeg)
 
-## Steps
+## Crawling steps
 <pre>
 cd crawler
 php parser.php > urllist.txt
